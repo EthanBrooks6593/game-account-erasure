@@ -1,0 +1,14 @@
+[package]
+name = "game-account-erasure"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[lib]
+name = "game_account_erasure"
+path = "src/lib.rs"
+
+[[bin]]
+name = "gdpr-delete-service"
+path = "src/bin/gdpr_delete_service.rs"
+
